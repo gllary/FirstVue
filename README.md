@@ -1,6 +1,6 @@
 # firstvue
 
-> y
+> vue完整项目学习
 
 ## Build Setup
 
