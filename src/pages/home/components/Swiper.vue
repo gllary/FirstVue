@@ -32,10 +32,10 @@ export default{
         },
         swiperList: [{
             id:'0001',
-            imgUrl:'https://imgs.qunarzz.com/vs_ceph_vs_tts/8bafd35f-bde7-45f1-9202-fa96ff014a75.jpg_r_390x260x90_474f0918.jpg'
+            imgUrl:'https://imgs.qunarzz.com/vc/de/3d/1c/2ea7755853fef62ce549153026.jpg_92.jpg'
           },{
             id: '0002',
-            imgUrl: 'https://imgs.qunarzz.com/vs_ceph_vs_tts/5b6b9b1d-fcab-4134-8c6c-5241ecc832d4.jpg_r_390x260x90_16cec21e.jpg'
+            imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20199/76e68eda4ed089c0e5b0ce2367efe428.jpg'
           }]
       }
     },
@@ -56,6 +56,5 @@ export default{
   }
   .swiper-img{
     width: 100%;
-    height: 2.4rem;
   }
 </style>
