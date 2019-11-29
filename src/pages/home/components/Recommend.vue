@@ -17,35 +17,8 @@
 <script>
     export default{
         name:'HomeRecommend',
-        data () {
-            return {
-                recommendList: [{
-                    id:'0001',
-                    imgUrl:'https://imgs.qunarzz.com/p/tts6/1704/b3/9733b2f74b6d0b02.jpg_160x160_7978bd50.jpg',
-                    title:'游乐嘉年华',
-                    desc:'木兰花乡休闲畅玩一日游【含25个游玩项目】'
-                },{
-                    id:'0002',
-                    imgUrl:'https://imgs.qunarzz.com/p/tts6/1704/b3/9733b2f74b6d0b02.jpg_160x160_7978bd50.jpg',
-                    title:'游乐嘉年华',
-                    desc:'木兰花乡休闲畅玩一日游【含25个游玩项目】'
-                },{
-                    id:'0003',
-                    imgUrl:'https://imgs.qunarzz.com/p/tts6/1704/b3/9733b2f74b6d0b02.jpg_160x160_7978bd50.jpg',
-                    title:'游乐嘉年华',
-                    desc:'木兰花乡休闲畅玩一日游【含25个游玩项目】'
-                },{
-                    id:'0004',
-                    imgUrl:'https://imgs.qunarzz.com/p/tts6/1704/b3/9733b2f74b6d0b02.jpg_160x160_7978bd50.jpg',
-                    title:'游乐嘉年华',
-                    desc:'木兰花乡休闲畅玩一日游【含25个游玩项目】'
-                },{
-                    id:'0005',
-                    imgUrl:'https://imgs.qunarzz.com/p/tts6/1704/b3/9733b2f74b6d0b02.jpg_160x160_7978bd50.jpg',
-                    title:'游乐嘉年华',
-                    desc:'木兰花乡休闲畅玩一日游【含25个游玩项目】'
-                }]
-            }
+        props: {
+            recommendList:Array
         }
     }
 </script>
