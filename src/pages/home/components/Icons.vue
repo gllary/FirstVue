@@ -1,6 +1,6 @@
 <template>
     <div class="icons">
-        <swiper >
+        <swiper :options="swiperOption">
             <swiper-slide  v-for="(page,index) of pages" :key="index">
                 <div class="icon" v-for="item of page" :key="item.id">
                     <diV class="icon-img">
@@ -16,49 +16,14 @@
 <script>
     export default{
         name:'HomeIcons',
+        props: {
+            iconList:Array
+        },
         data () {
             return {
-                iconList: [{
-                    id: '0001',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试一'
-                },{
-                    id: '0002',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试2'
-                },{
-                    id: '0003',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试3'
-                },{
-                    id: '0004',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试4'
-                },{
-                    id: '0005',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试5'
-                },{
-                    id: '0006',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试6'
-                },{
-                    id: '0007',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试7'
-                },{
-                    id: '0008',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试8'
-                },{
-                    id: '0009',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试9'
-                },{
-                    id: '00010',
-                    imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/piao.png',
-                    desc:'测试10'
-                }]
+                swiperOption: {
+                    autoplay: false
+                }
             }
         },
         computed: {
