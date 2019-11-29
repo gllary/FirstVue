@@ -30,7 +30,7 @@ export default {
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl';
 .header{
-    line-height: .86rem;
+    line-height: $headerHeight;
     display: flex;
     background: $bgColor;
     color:#fff ;
