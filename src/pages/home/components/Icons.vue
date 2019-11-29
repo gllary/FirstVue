@@ -84,6 +84,9 @@
     height: 0;
     padding-bottom: 50%;
 }
+.icons{
+    margin-top: .1rem;
+}
 .icon{
     position: relative;
     overflow: hidden;
@@ -110,6 +113,7 @@
 }
 .icon-desc{
     position: absolute;
+    min-width: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -117,6 +121,6 @@
     line-height: .44rem;
     color: $darkTextColor;
     text-align:center;
-    ellipse()
+    ellipsis()
 }
 </style>
